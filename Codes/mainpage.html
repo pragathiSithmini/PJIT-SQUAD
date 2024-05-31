@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Main Page</title>
+	<link rel="stylesheet" href="mainpage.css">
+	<script src="formvalidation.js"></script>
+</head>
+<body>
+	<p id="back"><span class="b"><a href="#"><img src="images/weblogo.jpg" alt="logo" class="logo" ></a>PJIT-SQUAD</span> 
+	<span class="pe">Perfect Joint Information Technology - Best for you</span>
+	<span class="c"><a href="#" class="ok">Login</a></span>
+	<span><a href="#" class="ok">Sign in</a></span>
+	</p>
+	<hr>
+	<div class="h" ><ul id="e">	
+		<li><a href="#">Home</a></li>
+		<li><a href="#query">Quary</a></li>
+		<li><a href="#">Buy</a></li>
+		<li><a href="#">Quiz</a></li>
+		<li><a href="#">Site Map</a></li>
+		<li><a href="#">Thumbnail Images</a></li>
+		<li><a href="#">About Us</a></li>
+		<li><input type="search" id="search" name="search" placeholder="Search"><img src="images/OIP.jfif" alt="search" class="search" ></li>
+		<li><a href="#"><img src="images/fb.webp" alt="fb"  class="social"></a><a href="#"><img src="images/Instagram.webp" alt="insta"  class="social"></a><a href="#"><img src="images/Linkedin.webp" alt="linkdn"  class="social"></a><a href="#"><img src="images/Twitter3.webp" alt="twit"  class="social"></a></li>
+	</ul></div>
+	<hr>
+	<h1 class="j">What Is Information Technology?</h1>
+	<img src="images/itlow.jpg" class="absolute" alt="itlow"  > 
+	<img src="images/introit.jpg"  class="absolute1" alt="intro" >
+	<img src="images/effectofit.jpg" class="absolute2" alt="effect" > 
+	<img src="images/crimicaandit.jpg" class="absolute3"  alt="crimical" >
+	<img src="images/toolsandweapons.jpg" class="absolute4" alt="tool" > 
+	<img src="images/cyber.jpg" class="absolute5" alt="cyber" >
+	<img src="images/compandinfotec.jpg" class="absolute6" alt="compandinfotec" > 
+	<img src="images/informatioch.jpg" class="absolute7"  alt="informatioch" >
+	<img src="images/mathematicsinit.jpg" class="absolute8" alt="mathematicsinit" > 
+	<img src="images/itessentials.jpg" class="absolute9" alt="itessentials" > 
+	<p class="v">Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data. Typically, IT is used in the context of business operations, as opposed to technology used for personal or entertainment purposes. The commercial use of IT encompasses both computer technology and telecommunications.
+		The Harvard Business Review coined the term information technology to make a distinction between purpose-built machines designed to perform a limited scope of functions, and general-purpose computing machines that could be programmed for various tasks. As the IT industry evolved from the mid-20th century, computing capability increased, while device cost and energy consumption decreased, a cycle that continues today when new technologies emerge.</p>
+	<img src="images/eBook-BP-Header.jpg" alt="ebook" class="g">
+	<iframe src="images/iframe.html" class="l"></iframe>
+	<p class="q">The number one benefit of information technology is that it empowers 
+	people to do what they want to do. It lets people be creative. It lets people be productive.
+	It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential.
+	(Steve Ballmer)</p>
+	<form class="form" name="myForm"  action="mailto:pragathi.20200351@iit.ac.lk" method="post" enctype="text/plain" >
+	<div class="qf"> <h1 class="qf2" id="query" > Query Form </h1></div>
+	<br>
+	<fieldset>
+		<label for="fname" class="z5">Name:</label>
+			<input type="text" name="Name" id="fname" size="59" placeholder="Enter your first name" autofocus >
+			<input type="text" name="Sirname" id="sname" size="59" placeholder="Enter your surname"   ><br><br>
+			<label for="adr" class="z5">Address:</label>
+			<input type="text" name="Address" id="adr" size="124" placeholder="Enter your address" ><br><br>			
+			<label for="mail" class="z4">Email:</label>
+			<input type="email" name="Email" id="mail" size="51" placeholder="Email"  ><br><br>
+			<label for="sub" class="z5">Subjects</label>
+			<select name="Subject" id="sub"  >
+			<option value="Please select">Please select</option>
+			<option value="community">Community</option>
+			<option value="delivery">Delivery</option>
+			<option value="Question">Question</option>
+			<option value="Help">Help</option>
+			<option value="other">Other</option>
+			</select>
+			<br><br>
+			<label for="QueryDetail" >Query Detail:</label>
+			<textarea name="Querydetails" id="QueryDetail" rows="10" cols="138"  ></textarea>
+			<div ><input type="button" name="rst" value="Edit" class="clear" onclick="validateedit(this.form)">
+			<input type="button" name="ViewQuery" value="ViewQuery" onclick="validateinformations(this.form); showInput(this.form);" class="clear" >
+			<span class="submit"><input type="button" name="sbt" value="Submit" class="clear" onclick="validatesubmit(this.form);">
+			</span></div>
+	</fieldset>
+			<div class="displayoutput">
+				<div class="informationtrue">Make sure your information is true..</div>
+				<div id="display1" class="displayinfo">
+				</div>
+				<div id="display2" class="displayinfo">
+				</div>
+				<div id="display3" class="displayinfo">
+				</div>
+				<div id="display4" class="displayinfo">
+				</div>
+				<div id="display5" class="displayinfo">
+				</div>
+			</div>
+	</form>
+	<div class="cookies"><p>We use cookies to give you to give you the best experience possible on our website and to better understand how users interact with our content.
+	<a href="#" class="ok">Ok</a>
+	<a href="#" class="learn">Learn More</a></p>
+	<a href="#back"><img src="images/bt.png" alt="Back to top" class="back">Back To Top</a>
+	</div>
+	<hr>
+	<div class="all">.PJIT-SQUAD.All rights reserved...<br><br>
+	<a href="editor.html" class="editor">Editor</a>	
+	</div>
+	<br>
+	<hr>
+	<hr>
+</body>
+</html>
